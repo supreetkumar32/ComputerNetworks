@@ -42,15 +42,7 @@ ContentRead.close();
 
 
 
-
-
-
-
-
-
-
-
-TCP Client
+//TCP Client
 
 
 import java.net.*; 
