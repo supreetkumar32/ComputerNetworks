@@ -1,4 +1,4 @@
-//UDP Sever
+//UDP Server
 
 import java.net.*; 
 import java.net.InetAddress; 
@@ -39,7 +39,7 @@ serverSocket.send(sendPacket);
 
 
 
-//UDP Client
+//UDP Client code
 
 import java.io.*; 
 import java.net.*; 
