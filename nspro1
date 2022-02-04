@@ -50,7 +50,7 @@ $ns at 0.1 "$cbr1 start"
 $ns at 10.0 "finish" 
 $ns run
 
-
+/////steps for execution
 gedit lab1.tcl
 ns lab1.tcl
 gedit lab1.tr
