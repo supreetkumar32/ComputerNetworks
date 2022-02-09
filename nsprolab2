@@ -112,6 +112,7 @@ $ns at 2.9 "$p3 send"
 $ns at 3.0 "finish"
 $ns run
 
+
 gedit lab2.tcl
 ns lab2.tcl
  gedit lab2.tr
