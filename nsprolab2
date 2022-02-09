@@ -115,4 +115,4 @@ $ns run
 
 gedit lab2.tcl
 ns lab2.tcl
- gedit lab2.tr
+gedit lab2.tr
