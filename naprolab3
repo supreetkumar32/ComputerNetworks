@@ -53,6 +53,18 @@ $ns at 0.0 "Draw $tcp2 $ng2"
 $ns at 10.0 "End"
 $ns run
 
+////////////////////////AWK FILE////////////////// EK BAAR AWK FILE KE BINA BHI RUN KARKE DHEK LENA
+BEGIN
+{
+}
+{
+  if($6 == "cwnd_")
+  printf("%f\t%f\t\n",$1,$7);
+}
+END
+{
+}
+ ////////////// 
  Open gedit editor and type program. Program name should have the 
 extension “ .tcl”
  [root@localhost ~]# gedit lab3.tcl
