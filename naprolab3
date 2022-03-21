@@ -53,7 +53,7 @@ $ns at 0.0 "Draw $tcp2 $ng2"
 $ns at 10.0 "End"
 $ns run
 
-////////////////////////AWK FILE////////////////// EK BAAR AWK FILE KE BINA BHI RUN KARKE DHEK LENA
+////////////////////////AWK FILE////////////////// 
 BEGIN
 {
 }
