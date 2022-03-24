@@ -15,7 +15,7 @@ $n2 label "Router"
 $n3 label "Destination/Null" 
 $ns duplex-link $n0 $n2 10Mb 300ms DropTail 
 $ns duplex-link $n1 $n2 10Mb 300ms DropTail 
-$ns duplex-link $n2 $n3 1Mb 300ms DropTail 
+$ns duplex-link $n2 $n3 1Mb 300ms DropTail
 $ns set queue-limit $n0 $n2 10 
 $ns set queue-limit $n1 $n2 10 
 $ns set queue-limit $n2 $n3 5 
@@ -38,7 +38,7 @@ $cbr1 set interval_ 0.005
 proc finish {} { 
 global ns nf tf 
 $ns flush-trace 
-exec nam lab1.nam & 
+exec nam lab1.nam &
 exec echo "The number of packet drop is:" & 
 exec grep -c "^d" lab1.tr & 
 close $tf 
